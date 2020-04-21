@@ -8,9 +8,10 @@ html, body {
 nav {
   font-size: 1.2em;
   border-bottom: 2px solid #dee3e0;
+  background-color: #0a38cf;
 }
 .navbar-nav a {
-  color: #0a38cf;
+  color: white;
 }
 .join{
   margin-left: 50%;
