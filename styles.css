@@ -7,11 +7,15 @@ html, body {
 }
 nav {
   font-size: 1.2em;
-  border-bottom: 2px solid #dee3e0;
-  background-color: #0a38cf;
+  border-bottom: 4px solid #dee3e0;
+  background-color: #253c78;
 }
 .navbar-nav a {
   color: white;
+  font-weight: 600;
+}
+.navbar-nav a:hover {
+  color: #f2f2f2;
 }
 .join{
   margin-left: 50%;
