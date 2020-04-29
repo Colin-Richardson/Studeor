@@ -7,7 +7,7 @@ html, body {
   overflow: hidden;
 }
 nav {
-  font-size: 1.2em;
+  font-size: 1.1em;
   background-color: #253c78;
 }
 .navbar-nav a {
@@ -18,7 +18,12 @@ nav {
   color: #f2f2f2;
 }
 .join{
-  margin-left: 50%;
+  left: 15%;
+  position: relative;
+}
+.dropdown-menu {
+  margin-left: 6.5%;
+  margin-top: 0%;
 }
 #login{
   position: absolute;
@@ -28,6 +33,12 @@ nav {
   position: absolute;
   right: 2%;
 }
+#student {
+  color: #253c78;
+}
+#teacher {
+  color: #253c78;
+}
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -35,6 +46,7 @@ nav {
  animation: fadeInAnimation ease 3s;
  animation-iteration-count: 1;
  animation-fill-mode: forwards;
+ color: #253c78;
 }
 @keyframes fadeInAnimation {
   0% {
@@ -46,14 +58,8 @@ nav {
 }
 .jumbotron {
   height: 100%;
-  background:
-      /* top, transparent red, faked with gradient */
-      linear-gradient(
-        rgba(207, 217, 223, 0.75),
-        rgba(226, 235, 240, 0.75)
-      ),
-      /* bottom, image */
-      url("static/landimg.jpg");
+  background: linear-gradient(rgba(207, 217, 223, 0.75),rgba(226, 235, 240, 0.75)),url("static/landimg.jpg");
+  background-size: cover;
 }
 .title {
   text-align: center;
