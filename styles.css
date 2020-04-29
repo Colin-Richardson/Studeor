@@ -1,28 +1,32 @@
+:root {
+--prim: #253c78;
+--sec: #dedede;
+--thi: #b2b7bf;
+}
 html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  overflow: hidden;
 }
 nav {
   font-size: 1.1em;
-  background-color: #253c78;
+  background-color: var(--prim);
 }
 .navbar-nav a {
   color: white;
   font-weight: 600;
 }
 .navbar-nav a:hover {
-  color: #f2f2f2;
+  color: var(--sec);
 }
 .join{
   left: 15%;
   position: relative;
 }
 .dropdown-menu {
-  margin-left: 6.5%;
+  margin-left: 5%;
   margin-top: 0%;
 }
 #login{
@@ -34,10 +38,10 @@ nav {
   right: 2%;
 }
 #student {
-  color: #253c78;
+  color: var(--prim);
 }
 #teacher {
-  color: #253c78;
+  color: var(--prim);
 }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -46,7 +50,7 @@ nav {
  animation: fadeInAnimation ease 3s;
  animation-iteration-count: 1;
  animation-fill-mode: forwards;
- color: #253c78;
+ color: var(--prim);
 }
 @keyframes fadeInAnimation {
   0% {
@@ -67,4 +71,39 @@ nav {
 }
 .caption {
   text-align: center;
+}
+.cre {
+background-color: var(--sec);
+}
+.creline {
+margin-top: 0%;
+background-color: var(--prim);
+}
+#crerow {
+  background-color: var(--sec);
+  padding-bottom: 1%;
+}
+#defphoto {
+  width: 10%;
+  height: 10%;
+  left: 2.5%;
+  margin-top: 1%;
+  position: relative;
+}
+#creator {
+  color: var(--prim);
+  padding-left: 5%;
+  padding-top: 4.5%;
+}
+#credesc {
+  color: var(--prim);
+}
+#about {
+  padding-bottom: 0.2%;
+}
+#review {
+  padding-bottom: 0.2%;
+}
+#revcard {
+  padding-bottom: 3%;
 }
