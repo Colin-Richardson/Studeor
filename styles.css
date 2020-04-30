@@ -9,6 +9,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background-color: var(--sec);
 }
 nav {
   font-size: 1.1em;
@@ -72,12 +73,21 @@ nav {
 .caption {
   text-align: center;
 }
-.cre {
-background-color: var(--sec);
-}
 .creline {
 margin-top: 0%;
 background-color: var(--prim);
+}
+.aboutdesc {
+  margin-left: 5%;
+  margin-right:5%;
+}
+#revline {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#titline {
+  margin-left: 39%;
+  margin-right: 39%;
 }
 #crerow {
   background-color: var(--sec);
@@ -106,4 +116,11 @@ background-color: var(--prim);
 }
 #revcard {
   padding-bottom: 3%;
+}
+.stu {
+  color: var(--prim);
+}
+#stuline {
+margin-left: 25%;
+margin-right: 25%;
 }
