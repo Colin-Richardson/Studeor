@@ -120,6 +120,17 @@ background-color: var(--prim);
 .stu {
   color: var(--prim);
 }
+.stuwtut {
+  width: 95%;
+  height: 95%;
+  position: relative;
+  left: 5%;
+  padding-top: 5%;
+}
+.stuwtutdes {
+  padding-top: 20%;
+  margin-right: 5%;
+}
 #stuline {
 margin-left: 25%;
 margin-right: 25%;
