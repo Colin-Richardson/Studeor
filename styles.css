@@ -30,6 +30,10 @@ nav {
   margin-left: 5%;
   margin-top: 0%;
 }
+#hello {
+  position: absolute;
+  left: 45%;
+}
 #login{
   position: absolute;
   right: 10%;
@@ -48,12 +52,12 @@ nav {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .bade {
- animation: fadeInAnimation ease 3s;
+ animation: indexfade ease 3s;
  animation-iteration-count: 1;
  animation-fill-mode: forwards;
  color: var(--prim);
 }
-@keyframes fadeInAnimation {
+@keyframes indexfade {
   0% {
    opacity: 0;
  }
@@ -120,16 +124,49 @@ background-color: var(--prim);
 .stu {
   color: var(--prim);
 }
-.stuwtut {
-  width: 95%;
-  height: 95%;
+.stubade {
+ animation: stufade ease 2.5s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+ color: var(--prim);
+}
+@keyframes stufade {
+  0% {
+   opacity: 0;
+ }
+  100% {
+   opacity: 1;
+ }
+}
+.clipart {
+  width: 60%;
+  height: 100%;
   position: relative;
-  left: 5%;
+  left: 15%;
   padding-top: 5%;
 }
-.stuwtutdes {
+.clipartdes {
   padding-top: 20%;
-  margin-right: 5%;
+  margin-right: 15%;
+}
+.clipart2des {
+  margin-left: 15%;
+  padding-top: 20%;
+}
+.creline2 {
+  margin-top: 0%;
+  background-color: var(--prim);
+}
+#cliparttit {
+  font-size: 220%;
+  padding-bottom: 2%;
+}
+#clipart2tit {
+font-size: 220%;
+padding-bottom: 2%;
+}
+#clipart2 {
+  margin-left: 10%;
 }
 #stuline {
 margin-left: 25%;
