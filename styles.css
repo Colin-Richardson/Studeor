@@ -1,6 +1,6 @@
 :root {
 --prim: #253c78;
---sec: #dedede;
+--sec: white;
 --thi: #b2b7bf;
 }
 html, body {
@@ -90,8 +90,12 @@ background-color: var(--prim);
   margin-right: 20%;
 }
 #titline {
-  margin-left: 39%;
-  margin-right: 39%;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+#specline {
+  margin-left: 21%;
+  margin-right: 21%;
 }
 #crerow {
   background-color: var(--sec);
@@ -104,19 +108,34 @@ background-color: var(--prim);
   margin-top: 1%;
   position: relative;
 }
+.role {
+  color: var(--prim);
+  position: relative;
+  left: 125%;
+}
 #creator {
   color: var(--prim);
   padding-left: 5%;
-  padding-top: 4.5%;
+  padding-top: 3%;
+  font-size: 450%;
+}
+#specialties {
+  color: var(--prim)
 }
 #credesc {
   color: var(--prim);
 }
 #about {
   padding-bottom: 0.2%;
+  color: var(--prim)
+}
+.subgroup {
+  padding-left: 10%;
 }
 #review {
-  padding-bottom: 0.2%;
+  margin-left: 40%;
+  color: var(--prim);
+  padding-top: 5%;
 }
 #revcard {
   padding-bottom: 3%;
