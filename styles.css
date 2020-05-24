@@ -116,8 +116,8 @@ background-color: var(--prim);
 #creator {
   color: var(--prim);
   padding-left: 5%;
-  padding-top: 3%;
-  font-size: 450%;
+  padding-top: 4%;
+  font-size: 350%;
 }
 #specialties {
   color: var(--prim)
@@ -139,7 +139,7 @@ background-color: var(--prim);
 }
 #revcard {
   padding-bottom: 3%;
-  padding-left: 3%; 
+  padding-left: 3%;
 }
 .stu {
   color: var(--prim);
