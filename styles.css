@@ -192,3 +192,22 @@ padding-bottom: 2%;
 margin-left: 25%;
 margin-right: 25%;
 }
+.crephoto {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+.crecard {
+  width: 25%;
+}
+.cardline {
+  background-color: var(--prim);
+  margin-bottom: 0%;
+}
+#titlineiv2 {
+margin-top: 0%;
+}
+#titpad {
+  padding-top: 3%;
+}
